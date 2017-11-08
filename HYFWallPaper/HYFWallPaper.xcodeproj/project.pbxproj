@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CE38491FB2FAA50048C6BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE38481FB2FAA50048C6BE /* main.m */; };
+		18CE384C1FB2FAA50048C6BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE384B1FB2FAA50048C6BE /* AppDelegate.m */; };
+		18CE384F1FB2FAA50048C6BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE384E1FB2FAA50048C6BE /* ViewController.m */; };
+		18CE38521FB2FAA50048C6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE38501FB2FAA50048C6BE /* Main.storyboard */; };
+		18CE38541FB2FAA60048C6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE38531FB2FAA60048C6BE /* Assets.xcassets */; };
+		18CE38571FB2FAA60048C6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CE38551FB2FAA60048C6BE /* LaunchScreen.storyboard */; };
+		18CE38621FB2FAA60048C6BE /* HYFWallPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE38611FB2FAA60048C6BE /* HYFWallPaperTests.m */; };
+		18CE386D1FB2FAA60048C6BE /* HYFWallPaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE386C1FB2FAA60048C6BE /* HYFWallPaperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CE385E1FB2FAA60048C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE383C1FB2FAA50048C6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE38431FB2FAA50048C6BE;
+			remoteInfo = HYFWallPaper;
+		};
+		18CE38691FB2FAA60048C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE383C1FB2FAA50048C6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE38431FB2FAA50048C6BE;
+			remoteInfo = HYFWallPaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CE38441FB2FAA50048C6BE /* HYFWallPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYFWallPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE38481FB2FAA50048C6BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CE384A1FB2FAA50048C6BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CE384B1FB2FAA50048C6BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CE384D1FB2FAA50048C6BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CE384E1FB2FAA50048C6BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CE38511FB2FAA50048C6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CE38531FB2FAA60048C6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CE38561FB2FAA60048C6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CE38581FB2FAA60048C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE385D1FB2FAA60048C6BE /* HYFWallPaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFWallPaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE38611FB2FAA60048C6BE /* HYFWallPaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFWallPaperTests.m; sourceTree = "<group>"; };
+		18CE38631FB2FAA60048C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE38681FB2FAA60048C6BE /* HYFWallPaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFWallPaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE386C1FB2FAA60048C6BE /* HYFWallPaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFWallPaperUITests.m; sourceTree = "<group>"; };
+		18CE386E1FB2FAA60048C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CE38411FB2FAA50048C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE385A1FB2FAA60048C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE38651FB2FAA60048C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CE383B1FB2FAA50048C6BE = {
+			isa = PBXGroup;
+			children = (
+				18CE38461FB2FAA50048C6BE /* HYFWallPaper */,
+				18CE38601FB2FAA60048C6BE /* HYFWallPaperTests */,
+				18CE386B1FB2FAA60048C6BE /* HYFWallPaperUITests */,
+				18CE38451FB2FAA50048C6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CE38451FB2FAA50048C6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CE38441FB2FAA50048C6BE /* HYFWallPaper.app */,
+				18CE385D1FB2FAA60048C6BE /* HYFWallPaperTests.xctest */,
+				18CE38681FB2FAA60048C6BE /* HYFWallPaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CE38461FB2FAA50048C6BE /* HYFWallPaper */ = {
+			isa = PBXGroup;
+			children = (
+				18CE384A1FB2FAA50048C6BE /* AppDelegate.h */,
+				18CE384B1FB2FAA50048C6BE /* AppDelegate.m */,
+				18CE384D1FB2FAA50048C6BE /* ViewController.h */,
+				18CE384E1FB2FAA50048C6BE /* ViewController.m */,
+				18CE38501FB2FAA50048C6BE /* Main.storyboard */,
+				18CE38531FB2FAA60048C6BE /* Assets.xcassets */,
+				18CE38551FB2FAA60048C6BE /* LaunchScreen.storyboard */,
+				18CE38581FB2FAA60048C6BE /* Info.plist */,
+				18CE38471FB2FAA50048C6BE /* Supporting Files */,
+			);
+			path = HYFWallPaper;
+			sourceTree = "<group>";
+		};
+		18CE38471FB2FAA50048C6BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CE38481FB2FAA50048C6BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CE38601FB2FAA60048C6BE /* HYFWallPaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE38611FB2FAA60048C6BE /* HYFWallPaperTests.m */,
+				18CE38631FB2FAA60048C6BE /* Info.plist */,
+			);
+			path = HYFWallPaperTests;
+			sourceTree = "<group>";
+		};
+		18CE386B1FB2FAA60048C6BE /* HYFWallPaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE386C1FB2FAA60048C6BE /* HYFWallPaperUITests.m */,
+				18CE386E1FB2FAA60048C6BE /* Info.plist */,
+			);
+			path = HYFWallPaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CE38431FB2FAA50048C6BE /* HYFWallPaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE38711FB2FAA60048C6BE /* Build configuration list for PBXNativeTarget "HYFWallPaper" */;
+			buildPhases = (
+				18CE38401FB2FAA50048C6BE /* Sources */,
+				18CE38411FB2FAA50048C6BE /* Frameworks */,
+				18CE38421FB2FAA50048C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYFWallPaper;
+			productName = HYFWallPaper;
+			productReference = 18CE38441FB2FAA50048C6BE /* HYFWallPaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CE385C1FB2FAA60048C6BE /* HYFWallPaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE38741FB2FAA60048C6BE /* Build configuration list for PBXNativeTarget "HYFWallPaperTests" */;
+			buildPhases = (
+				18CE38591FB2FAA60048C6BE /* Sources */,
+				18CE385A1FB2FAA60048C6BE /* Frameworks */,
+				18CE385B1FB2FAA60048C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE385F1FB2FAA60048C6BE /* PBXTargetDependency */,
+			);
+			name = HYFWallPaperTests;
+			productName = HYFWallPaperTests;
+			productReference = 18CE385D1FB2FAA60048C6BE /* HYFWallPaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CE38671FB2FAA60048C6BE /* HYFWallPaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE38771FB2FAA60048C6BE /* Build configuration list for PBXNativeTarget "HYFWallPaperUITests" */;
+			buildPhases = (
+				18CE38641FB2FAA60048C6BE /* Sources */,
+				18CE38651FB2FAA60048C6BE /* Frameworks */,
+				18CE38661FB2FAA60048C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE386A1FB2FAA60048C6BE /* PBXTargetDependency */,
+			);
+			name = HYFWallPaperUITests;
+			productName = HYFWallPaperUITests;
+			productReference = 18CE38681FB2FAA60048C6BE /* HYFWallPaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CE383C1FB2FAA50048C6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "贺亚飞";
+				TargetAttributes = {
+					18CE38431FB2FAA50048C6BE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B485QRT894;
+						ProvisioningStyle = Automatic;
+					};
+					18CE385C1FB2FAA60048C6BE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B485QRT894;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18CE38431FB2FAA50048C6BE;
+					};
+					18CE38671FB2FAA60048C6BE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B485QRT894;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18CE38431FB2FAA50048C6BE;
+					};
+				};
+			};
+			buildConfigurationList = 18CE383F1FB2FAA50048C6BE /* Build configuration list for PBXProject "HYFWallPaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CE383B1FB2FAA50048C6BE;
+			productRefGroup = 18CE38451FB2FAA50048C6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CE38431FB2FAA50048C6BE /* HYFWallPaper */,
+				18CE385C1FB2FAA60048C6BE /* HYFWallPaperTests */,
+				18CE38671FB2FAA60048C6BE /* HYFWallPaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CE38421FB2FAA50048C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE38571FB2FAA60048C6BE /* LaunchScreen.storyboard in Resources */,
+				18CE38541FB2FAA60048C6BE /* Assets.xcassets in Resources */,
+				18CE38521FB2FAA50048C6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE385B1FB2FAA60048C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE38661FB2FAA60048C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CE38401FB2FAA50048C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE384F1FB2FAA50048C6BE /* ViewController.m in Sources */,
+				18CE384C1FB2FAA50048C6BE /* AppDelegate.m in Sources */,
+				18CE38491FB2FAA50048C6BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE38591FB2FAA60048C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE38621FB2FAA60048C6BE /* HYFWallPaperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE38641FB2FAA60048C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE386D1FB2FAA60048C6BE /* HYFWallPaperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CE385F1FB2FAA60048C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE38431FB2FAA50048C6BE /* HYFWallPaper */;
+			targetProxy = 18CE385E1FB2FAA60048C6BE /* PBXContainerItemProxy */;
+		};
+		18CE386A1FB2FAA60048C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE38431FB2FAA50048C6BE /* HYFWallPaper */;
+			targetProxy = 18CE38691FB2FAA60048C6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CE38501FB2FAA50048C6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE38511FB2FAA50048C6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CE38551FB2FAA60048C6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE38561FB2FAA60048C6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CE386F1FB2FAA60048C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CE38701FB2FAA60048C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CE38721FB2FAA60048C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B485QRT894;
+				INFOPLIST_FILE = HYFWallPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heyafei.com.HYFWallPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CE38731FB2FAA60048C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B485QRT894;
+				INFOPLIST_FILE = HYFWallPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heyafei.com.HYFWallPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CE38751FB2FAA60048C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B485QRT894;
+				INFOPLIST_FILE = HYFWallPaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heyafei.com.HYFWallPaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFWallPaper.app/HYFWallPaper";
+			};
+			name = Debug;
+		};
+		18CE38761FB2FAA60048C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B485QRT894;
+				INFOPLIST_FILE = HYFWallPaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heyafei.com.HYFWallPaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFWallPaper.app/HYFWallPaper";
+			};
+			name = Release;
+		};
+		18CE38781FB2FAA60048C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B485QRT894;
+				INFOPLIST_FILE = HYFWallPaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heyafei.com.HYFWallPaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYFWallPaper;
+			};
+			name = Debug;
+		};
+		18CE38791FB2FAA60048C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B485QRT894;
+				INFOPLIST_FILE = HYFWallPaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heyafei.com.HYFWallPaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYFWallPaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CE383F1FB2FAA50048C6BE /* Build configuration list for PBXProject "HYFWallPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE386F1FB2FAA60048C6BE /* Debug */,
+				18CE38701FB2FAA60048C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE38711FB2FAA60048C6BE /* Build configuration list for PBXNativeTarget "HYFWallPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE38721FB2FAA60048C6BE /* Debug */,
+				18CE38731FB2FAA60048C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CE38741FB2FAA60048C6BE /* Build configuration list for PBXNativeTarget "HYFWallPaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE38751FB2FAA60048C6BE /* Debug */,
+				18CE38761FB2FAA60048C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CE38771FB2FAA60048C6BE /* Build configuration list for PBXNativeTarget "HYFWallPaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE38781FB2FAA60048C6BE /* Debug */,
+				18CE38791FB2FAA60048C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CE383C1FB2FAA50048C6BE /* Project object */;
+}
